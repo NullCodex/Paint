@@ -1,0 +1,65 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="paintStyling.css" media="screen" />
+</head>
+<body>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="paint.js"></script>
+	<div align = "left">
+		<div id = "help_tip"> Hover over each icon to see more information </div>
+		<br/>
+		<div id = "tool_size"> The current tool size is 1px </div><br/>
+		<div> Current color/hex value is: <span id = "current_color">blue</span></div><br/>
+		File Name: <input type = "text" id = "file_name"></input> <br/><br/>
+		<a title = "Downloads the current canvas in png format, if no file name is given default is download.png" href="#" src = "rsz_download.png" class="button" id="btn-download">Download</a>
+		<br/><br/>
+		
+		
+	</div>
+    <div align="center">
+        <canvas id = "myCanvas" width = "750" height = "400"
+                style = "position: absolute; left: 320; top: 10; z-index: 0; border:2px solid black;"></canvas>
+                <canvas id = "imageTemp" width = "750" height = "400"
+                style = "position: absolute; left: 320; top: 10; z-index: 1; border:2px solid black;"></canvas>
+	</div>
+		<div align = "right">
+			<canvas id="color_picker" width = "235" height="200"  style = "position: absolute; left: 1100; top: 10;"></canvas>
+		</div>
+		
+        <br /><br />
+		<div align = "center">
+		<img title = "Erases the entire canvas" src="./pictures/rsz_clear.png" id = "clear_button" height="40" width="40">
+		<img title = "Basic pencil tool"src="./pictures/rsz_pencil.png" id = "pencil_tool" height="40" width="40">
+		<img title = "Spray tool" src="./pictures/rsz_spray.png" id = "spray_tool" height="40" width="40">
+		<img title = "Rectangle tool" src="./pictures/rsz_rectangle.png" id = "rectangle_tool" height="40" width="40">
+		<img title = "Line tool" src="./pictures/rsz_line.png" id = "line_tool" height="40" width="40">
+		<img title = "Eraser tool" src="./pictures/rsz_eraser.png" id = "eraser_tool" height="40" width="40">
+		<img title = "Increase tool sizes to a maximum of 15px" src="./pictures/rsz_plus.png" id = "increase_tool" height="40" width="40">
+		<img title = "Decrease tool sizes, down to a minimum of 1px" src = "./pictures/rsz_minus.png" id = "decrease_tool" height="40" width="40">
+		<img title = "Undo last action" src="./pictures/rsz_undo.png" id = "undo_tool" height="40" width="40">
+		<img title = "Redo last action" src = "./pictures/rsz_redo.png" id = "redo_tool" height="40" width="40">
+		<img title = "Oval tool" src="./pictures/rsz_oval.png" id = "oval_tool" height = "40" width = "40">
+		<img title = "Fill tool" src = "./pictures/rsz_fill.png" id = "fill_tool" height "40" width = "40">
+
+		</div>
+		
+		<div align = "right">
+			<div id = "color_input"> Color: </div>
+            <select id="selColor">
+            <option value="black">black</option>
+            <option value="blue" selected="selected">blue</option>
+            <option value="red">red</option>
+            <option value="green">green</option>
+            <option value="yellow">yellow</option>
+            <option value="gray">gray</option>
+        </select>
+		<div id="hex">HEX: <input type="text"></input></div>
+        <div id="rgb">RGB: <input type="text"></input></div>
+		</div>
+		
+		<div align = "center">
+		
+		
+    </div>
+</body>
+</html>
