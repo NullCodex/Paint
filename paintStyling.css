@@ -1,120 +1,103 @@
-#myCanvas
-{
-	background: opaque;
+#myCanvas {
+    background: opaque;
 }
 
-#imageTemp
-{
-	background: opaque;
+#imageTemp {
+    background: opaque;
 }
 
-#clear_button
-{
-	position: absolute;
-	top: 450;
-	left: 340;
+#clear_button {
+    position: absolute;
+    top: 450;
+    left: 340;
 }
 
-#pencil_tool
-{
-	position: absolute;
-	top: 450;
-	left: 400;
+#pencil_tool {
+    position: absolute;
+    top: 450;
+    left: 400;
 }
 
-#spray_tool
-{
-	position: absolute;
-	top: 450;
-	left: 460;
+#spray_tool {
+    position: absolute;
+    top: 450;
+    left: 460;
 }
 
-#rectangle_tool
-{
-	position: absolute;
-	top: 450;
-	left: 520;
+#rectangle_tool {
+    position: absolute;
+    top: 450;
+    left: 520;
 }
 
-#line_tool
-{
-	position: absolute;
-	top: 450;
-	left: 580;
+#line_tool {
+    position: absolute;
+    top: 450;
+    left: 580;
 }
 
-#eraser_tool
-{
-	position: absolute;
-	top: 450;
-	left: 640;
+#eraser_tool {
+    position: absolute;
+    top: 450;
+    left: 640;
 }
 
-#increase_tool
-{
-	position: absolute;
-	top: 450;
-	left: 700;
+#increase_tool {
+    position: absolute;
+    top: 450;
+    left: 700;
 }
 
-#decrease_tool
-{
-	position: absolute;
-	top: 450;
-	left: 760;
+#decrease_tool {
+    position: absolute;
+    top: 450;
+    left: 760;
 }
 
-#undo_tool
-{
-	position: absolute;
-	top: 450;
-	left: 820;
+#undo_tool {
+    position: absolute;
+    top: 450;
+    left: 820;
 }
 
-#redo_tool
-{
-	position: absolute;
-	top: 450;
-	left: 880;
+#redo_tool {
+    position: absolute;
+    top: 450;
+    left: 880;
 }
 
-#oval_tool
-{
-	position: absolute;
-	top: 450;
-	left: 940;
+#oval_tool {
+    position: absolute;
+    top: 450;
+    left: 940;
 }
 
-#fill_tool
-{
-	position: absolute;
-	top: 450;
-	left: 1000;
+#fill_tool {
+    position: absolute;
+    top: 450;
+    left: 1000;
 }
 
-#color_input
-{
-	position: absolute;
-	top: 220;
-	left: 1100;
-}
-#selColor
-{
-	position: absolute;
-	top: 220;
-	left: 1142;
+#color_input {
+    position: absolute;
+    top: 220;
+    left: 1100;
 }
 
-#hex
-{
-	position: absolute;
-	top: 260;
-	left: 1100;
+#selColor {
+    position: absolute;
+    top: 220;
+    left: 1142;
 }
 
-#rgb
-{
-	position: absolute;
-	top: 280;
-	left: 1100;
+#hex {
+    position: absolute;
+    top: 260;
+    left: 1100;
+}
+
+#rgb {
+    position: absolute;
+    top: 280;
+    left: 1100;
 }
