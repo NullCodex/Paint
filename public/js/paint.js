@@ -24,7 +24,7 @@
         color_picker = document.getElementById('color_picker').getContext("2d");
 
         var img = new Image();
-        img.src = 'colormap.jpg';
+        img.src = '../img/colormap.jpg';
         $(img).load(function() {
             color_picker.drawImage(img, 0, 0);
         });
