@@ -1,3 +1,4 @@
+require('newrelic');
 
 // Set up variables
 var app = require('express')();
